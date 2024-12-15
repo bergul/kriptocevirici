@@ -55,7 +55,7 @@ function Converter() {
     };
 
     return (
-        <div className="max-w-3xl mx-auto p-4 bg-gray-100 rounded-lg shadow-md">
+        <div className="max-w-screen-sm mx-auto p-4 bg-gray-100 rounded-lg shadow-md">
             <div className="flex flex-col gap-6">
                 <div className="flex items-center gap-4" style={{ marginTop: '10px' }}>
                     <input

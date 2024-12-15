@@ -6,9 +6,9 @@ import Table from './components/Table'
 
 function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen pt-24">
       <Header />
-      <main className="flex-grow" style={{ marginTop: '20px', marginBottom: '10px' }}>
+      <main className="flex-grow" style={{ marginTop: '35px', marginBottom: '10px' }}>
         <Converter />
         <Table />
       </main>
