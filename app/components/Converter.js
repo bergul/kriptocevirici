@@ -64,8 +64,9 @@ function Converter() {
                         value={fromAmount}
                         onChange={(e) => handleFromChange(e.target.value)}
                         placeholder="Miktar gir"
+                        min="0"
                     />
-                    <div className="w-48">
+                    <div className="w-60">
                         <Select
                             options={cryptoData}
                             value={selectedFrom}
@@ -98,8 +99,9 @@ function Converter() {
                         value={toAmount}
                         onChange={(e) => handleToChange(e.target.value)}
                         placeholder="Miktar gir"
+                        min="0"
                     />
-                    <div className="w-48">
+                    <div className="w-60">
                         <Select
                             options={cryptoData}
                             value={selectedTo}
