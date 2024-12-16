@@ -51,9 +51,9 @@ function Table() {
                     {currentPageData.length > 0 ? (
                         currentPageData.map((coin, index) => (
                             <tr key={coin.id} className={`border-b ${index % 2 === 0 ? 'bg-white' : 'bg-gray-100'}`}>
-                                <td className="py-2 px-4 text-sm text-gray-900">{coin.name}</td>
-                                <td className="py-2 px-4 text-sm text-gray-900">${parseFloat(coin.price_usd).toFixed(2)}</td>
-                                <td className={`py-2 px-4 text-sm ${coin.percent_change_24h > 0 ? 'text-green-500' : 'text-red-500'}`}>
+                                <td className="py-2 px-4 text-center text-sm text-gray-900">{coin.name}</td>
+                                <td className="py-2 px-4 text-center text-sm text-gray-900">${parseFloat(coin.price_usd).toFixed(2)}</td>
+                                <td className={`py-2 px-4 text-center text-sm ${coin.percent_change_24h > 0 ? 'text-green-500' : 'text-red-500'}`}>
                                     {coin.percent_change_24h}%
                                 </td>
                             </tr>
