@@ -42,9 +42,9 @@ function Table() {
             <table className="w-4/5 table-auto border-collapse max-w-4xl mx-auto">
                 <thead>
                     <tr className="bg-gray-200">
-                        <th className="py-2 px-4 text-center text-sm font-medium text-gray-700">Kripto Para</th>
-                        <th className="py-2 px-4 text-center text-sm font-medium text-gray-700">Fiyat ($)</th>
-                        <th className="py-2 px-4 text-center text-sm font-medium text-gray-700">24 Sattlik Değişim (%)</th>
+                        <th className="py-2 px-4 text-center text-sm font-medium text-gray-700 w-1/3">Kripto Para</th>
+                        <th className="py-2 px-4 text-center text-sm font-medium text-gray-700 w-1/3">Fiyat ($)</th>
+                        <th className="py-2 px-4 text-center text-sm font-medium text-gray-700 w-1/3">24 Saatlik Değişim (%)</th>
                     </tr>
                 </thead>
                 <tbody>
