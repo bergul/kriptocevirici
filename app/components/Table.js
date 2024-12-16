@@ -39,12 +39,12 @@ function Table() {
     return (
         <div className="p-6 font-sans">
             <h1 className="text-center text-2xl font-semibold mb-4">Fiyatlar</h1>
-            <table className="w-3/5 table-auto border-collapse max-w-4xl mx-auto">
+            <table className="w-4/5 table-auto border-collapse max-w-4xl mx-auto">
                 <thead>
                     <tr className="bg-gray-200">
-                        <th className="py-2 px-4 text-left text-sm font-medium text-gray-700">Kripto Para</th>
-                        <th className="py-2 px-4 text-left text-sm font-medium text-gray-700">Fiyat ($)</th>
-                        <th className="py-2 px-4 text-left text-sm font-medium text-gray-700">24 Sattlik Değişim (%)</th>
+                        <th className="py-2 px-4 text-center text-sm font-medium text-gray-700">Kripto Para</th>
+                        <th className="py-2 px-4 text-center text-sm font-medium text-gray-700">Fiyat ($)</th>
+                        <th className="py-2 px-4 text-center text-sm font-medium text-gray-700">24 Sattlik Değişim (%)</th>
                     </tr>
                 </thead>
                 <tbody>
